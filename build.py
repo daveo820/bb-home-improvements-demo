@@ -1,6 +1,6 @@
 # Static page builder for the B&B Home Improvements concept. Run: python3 build.py
 import json
-BASE = 'https://daveo820.github.io/bb-home-improvements-demo/'  # temporary GitHub Pages link; swap for Vercel later
+BASE = 'https://bb-home-improvements-demo.vercel.app/'  # Vercel production URL
 TEL, TEL_H = '+19103367516', '(910) 336&#8209;7516'
 EXA = 'https://exa.ai/library/place/ttt0sdt195x'
 CR = 'https://www.contractorsranked.com/contractor/Fayetteville-NC/b-b-home-improvements'
