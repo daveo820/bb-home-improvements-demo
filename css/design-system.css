@@ -1,0 +1,26 @@
+/* B&B Home Improvements concept. Design tokens. Archetype: craftsman's job log. Signature: the tape measure. */
+:root{
+ --paper:#f6efe1; --ply:#ead9b8; --ply-d:#d9c193; --red:#a3201c; --red-d:#7f1714; --denim:#1f3a68; --denim-d:#152a4d;
+ --ink:#1c1a17; --mute:#5b5348; --tape:#f2c230; --line:#cdbb98; --white:#fffdf8;
+ --f-d:'Rokkitt',Rockwell,'Roboto Slab',Georgia,serif; --f-b:'Karla',system-ui,-apple-system,'Segoe UI',sans-serif;
+ --s1:4px;--s2:8px;--s3:12px;--s4:16px;--s5:24px;--s6:32px;--s7:48px;--s8:64px;--s9:96px;--s10:128px;
+ --t-xs:.8125rem;--t-s:.9375rem;--t-b:1.0625rem;--t-l:1.25rem;--t-xl:clamp(1.6rem,2.6vw,2.1rem);--t-2xl:clamp(2.1rem,4vw,3.2rem);--t-3xl:clamp(2.7rem,6.2vw,5.4rem);
+ --r:3px; --sh:0 1px 0 rgba(28,26,23,.08),0 10px 30px -14px rgba(28,26,23,.35);
+ --ease:cubic-bezier(.2,.7,.1,1);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 var(--t-b)/1.62 var(--f-b);text-rendering:optimizeLegibility}
+h1,h2,h3{font-family:var(--f-d);font-weight:800;line-height:1.02;letter-spacing:-.01em;margin:0 0 var(--s4);text-wrap:balance}
+h1{font-size:var(--t-3xl)} h2{font-size:var(--t-2xl)} h3{font-size:var(--t-xl)}
+p{margin:0 0 var(--s4);max-width:64ch}
+a{color:var(--red-d);text-underline-offset:3px}
+a:hover{color:var(--red)}
+img{max-width:100%;display:block;height:auto}
+:focus-visible{outline:3px solid var(--denim);outline-offset:3px}
+.wrap{width:min(1200px,100% - 48px);margin-inline:auto}
+.skip{position:absolute;left:-999px;top:8px;background:var(--ink);color:#fff;padding:8px 12px;z-index:99}
+.skip:focus{left:8px}
+.lede{font-size:var(--t-l);color:var(--mute);max-width:52ch}
+.fine{font-size:var(--t-xs);color:var(--mute)}
+@media (max-width:640px){.wrap{width:calc(100% - 36px)}body{font-size:1rem}}
