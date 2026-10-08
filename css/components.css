@@ -69,3 +69,18 @@
 }
 @media (max-width:640px){.mark small{display:none}.mark b{font-size:1.02rem}.cl-full{display:none}.cl-short{display:inline}.nav{gap:var(--s3);min-height:64px}.mk-b{font-size:1.15rem}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}.js-ready .rv{opacity:1;transform:none}.js-ready .tape .blade{transform:none}html{scroll-behavior:auto}}
+
+/* device QA: 44px tap targets, and keep the header inside a 320px screen */
+.mark{min-height:44px}
+.menu-btn{min-height:44px}
+.sign-num{min-height:44px}
+@media (max-width:400px){
+ .nav{gap:var(--s2)}
+ .mark{gap:var(--s2)}
+ .mk-b{font-size:1rem;padding:8px 7px 6px}
+ .menu-btn{padding:8px 11px}
+ .btn--call{padding:9px 10px}
+}
+@media (max-width:360px){.mk-b{display:none}}
+/* device QA: placeholder tags readable on phones */
+.ph{font-size:.75rem}

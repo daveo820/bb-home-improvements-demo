@@ -118,3 +118,5 @@ fieldset{border:0;padding:0;margin:0 0 var(--s5)} legend{font:800 1.3rem var(--f
 .btn--call{white-space:nowrap}
 .rcard--lead blockquote p{font-size:1.25rem}
 @media (max-width:640px){.btn--call{padding:9px 12px;font-size:.9rem}.mark b{max-width:9ch;line-height:1.05}.rcard--lead blockquote p{font-size:1.1rem}}
+/* device QA: the big phone link on contact is a 44px tap target */
+.card .phone{display:flex;width:fit-content;align-items:center;min-height:44px}
