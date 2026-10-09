@@ -114,7 +114,7 @@ page('index.html','B&B Home Improvements | Remodeling Contractor, Fayetteville',
   <a class="room room--decks rv" href="services.html#decks"><span class="room-k">Decks and patios</span><b>Built and rebuilt.</b></a>
   <a class="room room--fix rv" href="services.html#repairs"><span class="room-k">Repairs</span><b>Rim joists, rot, damage, odd jobs.</b></a>
  </div>
- <p class="note rv"><span class="ph">Placeholder</span> before and after photos for each room. Bobbybefore and after photos for each room. Bobby already posts project photos to his Google profile; those would go here.rsquo;s June 2026 Google post already has a kitchen photo; more like it would go here.</p>
+ <p class="note rv"><span class="ph">Placeholder</span> before and after photos for each room. Bobby&rsquo;s June 2026 Google post already has a kitchen photo; more like it would go here.</p>
 </div></section>
 
 <section class="voices wrap" aria-labelledby="vo-h">
